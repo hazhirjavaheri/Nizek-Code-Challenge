@@ -9,9 +9,19 @@ import SwiftUI
 
 @main
 struct NizekCodeChallengeApp: App {
+    @Environment(\.scenePhase) private var scenePhase
+    @AppStorage("isNewUser") var isNewUser: Bool = true
+    @StateObject var authenticator = Authenticator()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if isNewUser {
+                RegisterView()
+                    .environmentObject(authenticator)
+            } else {
+                RootView()
+                    .environmentObject(authenticator)
+            }
         }
     }
 }
