@@ -16,7 +16,6 @@
 		7479155A270979AB002B95EB /* CustomButton in Frameworks */ = {isa = PBXBuildFile; productRef = 74791559270979AB002B95EB /* CustomButton */; };
 		7479155C2709AD2C002B95EB /* Authenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7479155B2709AD2C002B95EB /* Authenticator.swift */; };
 		7479155E2709AF5C002B95EB /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7479155D2709AF5C002B95EB /* RootView.swift */; };
-		74A544952710B0E2004E4BBB /* StopWatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A544942710B0E2004E4BBB /* StopWatchManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +29,6 @@
 		747915542708270A002B95EB /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		7479155B2709AD2C002B95EB /* Authenticator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authenticator.swift; sourceTree = "<group>"; };
 		7479155D2709AF5C002B95EB /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
-		74A544942710B0E2004E4BBB /* StopWatchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				7479155B2709AD2C002B95EB /* Authenticator.swift */,
-				74A544942710B0E2004E4BBB /* StopWatchManager.swift */,
 				7479151F27060650002B95EB /* NizekCodeChallengeApp.swift */,
 				7479155D2709AF5C002B95EB /* RootView.swift */,
 				74791552270826FE002B95EB /* RegisterView.swift */,
@@ -164,7 +161,6 @@
 				74791553270826FE002B95EB /* RegisterView.swift in Sources */,
 				7479152227060650002B95EB /* ContentView.swift in Sources */,
 				747915552708270A002B95EB /* LoginView.swift in Sources */,
-				74A544952710B0E2004E4BBB /* StopWatchManager.swift in Sources */,
 				7479155E2709AF5C002B95EB /* RootView.swift in Sources */,
 				7479152027060650002B95EB /* NizekCodeChallengeApp.swift in Sources */,
 				7479155C2709AD2C002B95EB /* Authenticator.swift in Sources */,

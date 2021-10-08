@@ -29,7 +29,6 @@ struct LoginView: View {
                 .cornerRadius(3.0)
             }
             .padding()
-            
             .padding(.bottom, 100)
             CustomButton(title: authenticator.isAuthenticating ? "Please wait" : "Log in") {
                 authenticator.login(username: username, password: password)
@@ -48,7 +47,6 @@ struct LoginView: View {
     private var isLoginDisabled: Bool {
       authenticator.isAuthenticating || username.isEmpty || password.isEmpty
     }
-
 }
 
 struct LoginView_Previews: PreviewProvider {

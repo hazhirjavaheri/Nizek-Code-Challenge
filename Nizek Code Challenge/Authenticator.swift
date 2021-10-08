@@ -15,8 +15,6 @@ class Authenticator: ObservableObject {
     @Published var isAuthenticating: Bool
     var timer: Timer = Timer()
 
-//    @EnvironmentObject var stopwatch: StopWatchManager
-
     init() {
         self.needsAuthentication = true
         self.isAuthenticating = false

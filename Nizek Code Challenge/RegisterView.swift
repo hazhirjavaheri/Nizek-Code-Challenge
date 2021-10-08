@@ -10,7 +10,6 @@ import CustomButton
 
 struct RegisterView: View {
     @EnvironmentObject var authenticator: Authenticator
-//    @EnvironmentObject var stopwatch: StopWatchManager
     @AppStorage("isNewUser") var isNewUser: Bool?
     @AppStorage("username") var savedUsername: String = ""
     @AppStorage("password") var savedPassword: String = ""
@@ -43,8 +42,6 @@ struct RegisterView: View {
                 savedPassword = password
                 isNewUser = false
                 authenticator.start()
-//                authenticator.needsAuthentication = false
-//                stopwatch.start()
                 print("start register")
             }
             .buttonStyle(CustomButtonStyle(

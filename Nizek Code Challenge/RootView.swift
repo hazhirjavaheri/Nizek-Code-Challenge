@@ -9,7 +9,6 @@ import SwiftUI
 
 struct RootView: View {
     @EnvironmentObject var authenticator: Authenticator
-//    @EnvironmentObject var stopwatch: StopWatchManager
 
   var body: some View {
     ContentView()

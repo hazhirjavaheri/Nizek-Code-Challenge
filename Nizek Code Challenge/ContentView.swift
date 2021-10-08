@@ -12,7 +12,6 @@ import UserNotifications
 
 struct ContentView: View {
     @EnvironmentObject var authenticator: Authenticator
-//    @EnvironmentObject var stopwatch: StopWatchManager
     @State private var notificationDate: Date = Date()
     
     var body: some View {
@@ -38,7 +37,6 @@ struct ContentView: View {
                                 foregroundColor: .white,
                                 backgroundColor: .blue,
                                 isDisabled: false))
-                
                 .padding(.top, 90)
         }
         .padding(25)
