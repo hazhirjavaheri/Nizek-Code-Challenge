@@ -10,6 +10,9 @@ import SwiftUI
 
 class Nizek_Code_ChallengeUITests: XCTestCase {
     @AppStorage("isNewUser") var isNewUser: Bool?
+    @AppStorage("username") var savedUsername: String?
+    @AppStorage("password") var savedPassword: String?
+
     override func setUpWithError() throws {
         continueAfterFailure = false
     }
@@ -18,14 +21,18 @@ class Nizek_Code_ChallengeUITests: XCTestCase {
         guard let isNewUser = isNewUser, !isNewUser  else {
             return
         }
+        guard let savedUsername = savedUsername,
+              let savedPassword = savedPassword else {
+            return
+        }
         let app = XCUIApplication()
         app.launch()
 
         var usernameField = app.textFields["username"]
         let passwordField = app.textFields["password"]
         let registerButton = app.buttons["loginButton"]
-        usernameField.typeText("hazhir")
-        passwordField.typeText("1234")
+        usernameField.typeText(savedUsername)
+        passwordField.typeText(savedPassword)
         registerButton.tap()
         
         let greetingText = app.staticTexts["greeting"]
