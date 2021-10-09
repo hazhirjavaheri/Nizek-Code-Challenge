@@ -16,7 +16,26 @@
 		7479155A270979AB002B95EB /* CustomButton in Frameworks */ = {isa = PBXBuildFile; productRef = 74791559270979AB002B95EB /* CustomButton */; };
 		7479155C2709AD2C002B95EB /* Authenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7479155B2709AD2C002B95EB /* Authenticator.swift */; };
 		7479155E2709AF5C002B95EB /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7479155D2709AF5C002B95EB /* RootView.swift */; };
+		74C8C615271153A5005A9796 /* Nizek_Code_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C8C614271153A5005A9796 /* Nizek_Code_ChallengeTests.swift */; };
+		74C8C6232711543A005A9796 /* Nizek_Code_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C8C6222711543A005A9796 /* Nizek_Code_ChallengeUITests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74C8C617271153A5005A9796 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7479151427060650002B95EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7479151B27060650002B95EB;
+			remoteInfo = "Nizek Code Challenge";
+		};
+		74C8C6252711543A005A9796 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7479151427060650002B95EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7479151B27060650002B95EB;
+			remoteInfo = "Nizek Code Challenge";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		7479151C27060650002B95EB /* Nizek Code Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nizek Code Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +48,12 @@
 		747915542708270A002B95EB /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		7479155B2709AD2C002B95EB /* Authenticator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authenticator.swift; sourceTree = "<group>"; };
 		7479155D2709AF5C002B95EB /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		74C8C612271153A5005A9796 /* Nizek Code ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nizek Code ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74C8C614271153A5005A9796 /* Nizek_Code_ChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nizek_Code_ChallengeTests.swift; sourceTree = "<group>"; };
+		74C8C616271153A5005A9796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74C8C6202711543A005A9796 /* Nizek Code ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nizek Code ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74C8C6222711543A005A9796 /* Nizek_Code_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nizek_Code_ChallengeUITests.swift; sourceTree = "<group>"; };
+		74C8C6242711543A005A9796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +65,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		74C8C60F271153A5005A9796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74C8C61D2711543A005A9796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -47,6 +86,8 @@
 			isa = PBXGroup;
 			children = (
 				7479151E27060650002B95EB /* Nizek Code Challenge */,
+				74C8C613271153A5005A9796 /* Nizek Code ChallengeTests */,
+				74C8C6212711543A005A9796 /* Nizek Code ChallengeUITests */,
 				7479151D27060650002B95EB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,6 +96,8 @@
 			isa = PBXGroup;
 			children = (
 				7479151C27060650002B95EB /* Nizek Code Challenge.app */,
+				74C8C612271153A5005A9796 /* Nizek Code ChallengeTests.xctest */,
+				74C8C6202711543A005A9796 /* Nizek Code ChallengeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +126,24 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		74C8C613271153A5005A9796 /* Nizek Code ChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				74C8C614271153A5005A9796 /* Nizek_Code_ChallengeTests.swift */,
+				74C8C616271153A5005A9796 /* Info.plist */,
+			);
+			path = "Nizek Code ChallengeTests";
+			sourceTree = "<group>";
+		};
+		74C8C6212711543A005A9796 /* Nizek Code ChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74C8C6222711543A005A9796 /* Nizek_Code_ChallengeUITests.swift */,
+				74C8C6242711543A005A9796 /* Info.plist */,
+			);
+			path = "Nizek Code ChallengeUITests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,6 +167,42 @@
 			productReference = 7479151C27060650002B95EB /* Nizek Code Challenge.app */;
 			productType = "com.apple.product-type.application";
 		};
+		74C8C611271153A5005A9796 /* Nizek Code ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74C8C61B271153A5005A9796 /* Build configuration list for PBXNativeTarget "Nizek Code ChallengeTests" */;
+			buildPhases = (
+				74C8C60E271153A5005A9796 /* Sources */,
+				74C8C60F271153A5005A9796 /* Frameworks */,
+				74C8C610271153A5005A9796 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74C8C618271153A5005A9796 /* PBXTargetDependency */,
+			);
+			name = "Nizek Code ChallengeTests";
+			productName = "Nizek Code ChallengeTests";
+			productReference = 74C8C612271153A5005A9796 /* Nizek Code ChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74C8C61F2711543A005A9796 /* Nizek Code ChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74C8C6272711543A005A9796 /* Build configuration list for PBXNativeTarget "Nizek Code ChallengeUITests" */;
+			buildPhases = (
+				74C8C61C2711543A005A9796 /* Sources */,
+				74C8C61D2711543A005A9796 /* Frameworks */,
+				74C8C61E2711543A005A9796 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74C8C6262711543A005A9796 /* PBXTargetDependency */,
+			);
+			name = "Nizek Code ChallengeUITests";
+			productName = "Nizek Code ChallengeUITests";
+			productReference = 74C8C6202711543A005A9796 /* Nizek Code ChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -117,6 +214,14 @@
 				TargetAttributes = {
 					7479151B27060650002B95EB = {
 						CreatedOnToolsVersion = 12.5.1;
+					};
+					74C8C611271153A5005A9796 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 7479151B27060650002B95EB;
+					};
+					74C8C61F2711543A005A9796 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 7479151B27060650002B95EB;
 					};
 				};
 			};
@@ -137,6 +242,8 @@
 			projectRoot = "";
 			targets = (
 				7479151B27060650002B95EB /* Nizek Code Challenge */,
+				74C8C611271153A5005A9796 /* Nizek Code ChallengeTests */,
+				74C8C61F2711543A005A9796 /* Nizek Code ChallengeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -148,6 +255,20 @@
 			files = (
 				7479152727060651002B95EB /* Preview Assets.xcassets in Resources */,
 				7479152427060651002B95EB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74C8C610271153A5005A9796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74C8C61E2711543A005A9796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,7 +288,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		74C8C60E271153A5005A9796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74C8C615271153A5005A9796 /* Nizek_Code_ChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74C8C61C2711543A005A9796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74C8C6232711543A005A9796 /* Nizek_Code_ChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74C8C618271153A5005A9796 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7479151B27060650002B95EB /* Nizek Code Challenge */;
+			targetProxy = 74C8C617271153A5005A9796 /* PBXContainerItemProxy */;
+		};
+		74C8C6262711543A005A9796 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7479151B27060650002B95EB /* Nizek Code Challenge */;
+			targetProxy = 74C8C6252711543A005A9796 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		7479152927060651002B95EB /* Debug */ = {
@@ -330,6 +480,84 @@
 			};
 			name = Release;
 		};
+		74C8C619271153A5005A9796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G2R3HK7M7J;
+				INFOPLIST_FILE = "Nizek Code ChallengeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.javaheri.Nizek-Code-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nizek Code Challenge.app/Nizek Code Challenge";
+			};
+			name = Debug;
+		};
+		74C8C61A271153A5005A9796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G2R3HK7M7J;
+				INFOPLIST_FILE = "Nizek Code ChallengeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.javaheri.Nizek-Code-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nizek Code Challenge.app/Nizek Code Challenge";
+			};
+			name = Release;
+		};
+		74C8C6282711543A005A9796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G2R3HK7M7J;
+				INFOPLIST_FILE = "Nizek Code ChallengeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.javaheri.Nizek-Code-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Nizek Code Challenge";
+			};
+			name = Debug;
+		};
+		74C8C6292711543A005A9796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G2R3HK7M7J;
+				INFOPLIST_FILE = "Nizek Code ChallengeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.javaheri.Nizek-Code-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Nizek Code Challenge";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -347,6 +575,24 @@
 			buildConfigurations = (
 				7479152C27060651002B95EB /* Debug */,
 				7479152D27060651002B95EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74C8C61B271153A5005A9796 /* Build configuration list for PBXNativeTarget "Nizek Code ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74C8C619271153A5005A9796 /* Debug */,
+				74C8C61A271153A5005A9796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74C8C6272711543A005A9796 /* Build configuration list for PBXNativeTarget "Nizek Code ChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74C8C6282711543A005A9796 /* Debug */,
+				74C8C6292711543A005A9796 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
