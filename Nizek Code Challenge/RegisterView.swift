@@ -23,7 +23,7 @@ struct RegisterView: View {
                     TextField("Username", text: $username)
                         .autocapitalization(.none)
                         .disableAutocorrection(true)
-                    SecureField("Password", text: $password)
+                    SecureField("Password", text: $password)                        
                 }
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                 .font(.title)
@@ -48,6 +48,7 @@ struct RegisterView: View {
                             foregroundColor: .white,
                             backgroundColor: .green,
                             isDisabled: false))
+            .accessibility(identifier: "RegisterButton")
             .disabled(isRegisterDisabled)
             ProgressView()
               .progressViewStyle(CircularProgressViewStyle())

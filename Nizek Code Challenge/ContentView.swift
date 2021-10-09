@@ -16,6 +16,10 @@ struct ContentView: View {
     
     var body: some View {
         VStack(spacing: 25.0) {
+            Text("Hello \(authenticator.savedUsername ?? "World")")
+                .font(.title)
+                .padding()
+                .accessibility(identifier: "greeting")
             CustomButton(title: "ButtonTitle") {}
                 .buttonStyle(CustomButtonStyle(
                                 foregroundColor: .red,

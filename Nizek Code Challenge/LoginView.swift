@@ -18,9 +18,11 @@ struct LoginView: View {
             VStack(spacing: 25) {
                 Group {
                     TextField("Username", text: $username)
+                        .accessibility(identifier: "username")
                         .autocapitalization(.none)
                         .disableAutocorrection(true)
                     SecureField("Password", text: $password)
+                        .accessibility(identifier: "password")
                 }
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                 .font(.title)
@@ -30,6 +32,8 @@ struct LoginView: View {
             }
             .padding()
             .padding(.bottom, 100)
+            
+            // Login Button
             CustomButton(title: authenticator.isAuthenticating ? "Please wait" : "Log in") {
                 authenticator.login(username: username, password: password)
             }
@@ -37,6 +41,7 @@ struct LoginView: View {
                             foregroundColor: .white,
                             backgroundColor: .green,
                             isDisabled: false))
+            .accessibility(identifier: "loginButton")
             .disabled(isLoginDisabled)
             ProgressView()
               .progressViewStyle(CircularProgressViewStyle())
